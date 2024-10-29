@@ -2,6 +2,46 @@
 // We create some of the definition and modify some definition from blocknative
 // https://www.blocknative.com/glossary
 const glossary = [
+    {
+      "term": "Interoperability",
+      "definition": "Interoperability refers to the ability of different blockchain networks to interact, share, and access each other's data and assets seamlessly, which is crucial for enhancing user experience and advancing blockchain ecosystems."
+    },
+    {
+      "term": "Layer 2",
+      "definition": "Layer 2 is a secondary framework built on top of an existing blockchain (Layer 1) to improve scalability and speed by offloading some of the processing work from the main chain."
+    },
+    {
+      "term": "Nonce",
+      "definition": "A nonce is a number added to a hashed or encrypted block in a blockchain that, when rehashed, meets the difficulty level restrictions. Nonces are used to create the proof of work that helps secure blockchains."
+    },
+    {
+      "term": "Rug Pull",
+      "definition": "A rug pull is a type of scam in the cryptocurrency space where developers abandon a project and take investors' funds. This often happens in DeFi projects and new token launches."
+    },
+    {
+      "term": "Sharding",
+      "definition": "Sharding is a method of partitioning a blockchain network into smaller, more manageable pieces, or 'shards,' to improve scalability by enabling parallel processing of transactions."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A stablecoin is a type of cryptocurrency that is pegged to a stable asset, like a fiat currency or precious metal, to minimize price volatility and facilitate smoother transactions."
+    },
+    {
+      "term": "Validator",
+      "definition": "A validator is an entity that validates transactions and adds them to the blockchain in a proof-of-stake (PoS) network. Validators replace miners in PoS blockchains and are rewarded for securing the network."
+    },
+    {
+      "term": "Yield Farming",
+      "definition": "Yield farming is a strategy in DeFi where users lend or stake their assets in order to generate high returns, typically by earning additional tokens as interest or rewards."
+    },
+    {
+      "term": "zk-SNARKs",
+      "definition": "Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (zk-SNARK) is a cryptographic proof that enables one party to prove possession of certain information without revealing the information itself."
+    },
+    {
+      "term": "Proof of Burn",
+      "definition": "Proof of Burn (PoB) is a consensus algorithm where miners 'burn' coins by sending them to an unusable address, proving commitment to the network and receiving rewards without the environmental impact of Proof of Work."
+    },  
   {
     term: 'ABI (Application Binary Interface)',
     definition:
